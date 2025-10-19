@@ -353,7 +353,7 @@ lcmm = LangChainMarketMaker(
     wakeup_freq="5s",
     size=50,
     lc_use_groq=True,      # Phase 1: off
-    metrics_path=r"C:\Users\jakob\project\abides\log\rmsc04_langchain",
+    metrics_path=r"...\abides\log\rmsc04_langchain",
 )
 
 
@@ -428,3 +428,4 @@ kernel.runner(agents=agents,
 simulation_end_time = dt.datetime.now()
 print("Simulation End Time: {}".format(simulation_end_time))
 print("Time taken to run simulation: {}".format(simulation_end_time - simulation_start_time))
+
